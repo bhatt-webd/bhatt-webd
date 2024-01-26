@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    margin-top: -20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_box{
+    margin-top: 20px;
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: yellowgreen;
+    align-items: center;
+    border: 2px solid navy;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+.msg{
+    min-height:800px;
+    margin-top:220px;
+    width: 500px;
+    background:yellowgreen;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+    
+}
+.hid{
+    display: none;
+}
+.btnnew{
+    height: 60px;
+    width:170px;
+    padding:3px;
+    margin:50px;
+    background:navy;
+    border-radius:30px;
+    color:white;
+}
+.btn{
+    height: 60px;
+    width: 80px;
+    background-color: red;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    padding: 3px;
+}
+.btn:hover{
+    border: 2px solid rgb(166, 3, 3);
+    background-color: rgb(200, 5, 5);
+    font-weight: 2000;
+
+}
+.box{
+    height: 16vmin;
+    width: 16vmin;
+    margin: 10px;
+    border-radius: 14px;
+    background-color: rgb(4, 4, 109);
+    border: none;
+    font-size: 5rem;
+    color: blanchedalmond;
+
+}
+
+
+
+.newbtn{
+    height: 60px;
+    width: 80px;
+    background-color: red;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    padding: 3px;  
+}
